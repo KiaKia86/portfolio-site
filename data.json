@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "title": "Orca V.1",
+      "description": "Weather Station Prototype Board Design featuring ESP32 and high-precision sensors.",
+      "image": "project1.jpg"
+    },
+    {
+      "title": "Calassador Novel",
+      "description": "Co-authored a fast-paced novel published in 2022.",
+      "image": "project2.jpg"
+    }
+  ],
+  "skills": [
+    "C++",
+    "Java",
+    "PCB Design",
+    "3D Modeling",
+    "Blender",
+    "Leadership"
+  ]
+}

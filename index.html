@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kiyarash Shahriari Kesheh - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="logo">Kiyarash Shahriari Kesheh</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#volunteering">Volunteering</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Kiyarash Shahriari Kesheh</h1>
+        <p>Student | Engineer | Innovator</p>
+        <a href="#about" class="btn">Explore My Work</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <img src="images/profile.jpg" alt="Kiyarash Shahriari Kesheh" class="profile-img">
+        <p>
+          I am a high school student at William Howard Taft Charter High School (Magnet), graduating in 2026. I am passionate about technology, engineering, and leadership, with a focus on aerospace and mechanical engineering. I am proficient in Blender, 3D modeling (CAD), PCB design, and programming in Java. Connect with me to discuss collaborations and opportunities!
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <!-- ORCA v.1 Project -->
+        <div class="project-card" data-project="orca">
+          <div class="project-images">
+            <img src="images/orca1.jpg" alt="ORCA v.1 Image 1" class="project-thumbnail">
+            <img src="images/orca2.jpg" alt="ORCA v.1 Image 2" class="project-thumbnail">
+            <img src="images/orca-schematic.jpg" alt="ORCA v.1 Schematic" class="project-thumbnail">
+          </div>
+          <h3>ORCA v.1</h3>
+          <p>Weather Station Prototype Board Design.</p>
+        </div>
+        <!-- Novel Project -->
+        <div class="project-card" data-project="novel">
+          <div class="project-images">
+            <img src="images/novel1.jpg" alt="Novel Image 1" class="project-thumbnail">
+            <img src="images/novel2.jpg" alt="Novel Image 2" class="project-thumbnail">
+          </div>
+          <h3>Calassador Novel</h3>
+          <p>Co-authored a fast-paced novel published in 2022.</p>
+        </div>
+        <!-- Turbojet Engine CAD Project -->
+        <div class="project-card" data-project="turbojet">
+          <div class="project-images">
+            <img src="images/impeller.jpg" alt="Turbojet Impeller" class="project-thumbnail">
+            <img src="images/stator.jpg" alt="Turbojet Stator" class="project-thumbnail">
+            <img src="images/impeller-cover.jpg" alt="Turbojet Impeller Cover" class="project-thumbnail">
+            <img src="images/stator-cover.jpg" alt="Turbojet Stator Cover" class="project-thumbnail">
+          </div>
+          <h3>Turbojet Engine CAD</h3>
+          <p>Ongoing project: Designing an RC turbojet engine.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education">
+    <div class="container">
+      <h2>Education</h2>
+      <div class="education-content">
+        <h3>William Howard Taft Charter High School STEAM Magnet</h3>
+        <p>Aug 2022 - Jun 2026</p>
+        <p>Grade: 9-12</p>
+        <p>Activities: Taft Robotics, Taft Aerospace Club, Taft 2026 Steering Committee, Taft Teen Court Club, Peer Tutor, Varsity Football.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Volunteering Section -->
+  <section id="volunteering">
+    <div class="container">
+      <h2>Volunteering</h2>
+      <div class="volunteering-content">
+        <h3>Peer Tutor</h3>
+        <p>Jan 2023 - Present · 400+ hours</p>
+        <p>Tutoring students in science, math, and French.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-item">C++</div>
+        <div class="skill-item">PCB Design</div>
+        <div class="skill-item">3D Modeling</div>
+        <div class="skill-item">Java</div>
+        <div class="skill-item">Leadership</div>
+        <div class="skill-item">Autodesk Fusion 360</div>
+        <div class="skill-item">Blender</div>
+        <div class="skill-item">Project Management</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Kiyarash Shahriari Kesheh. All rights reserved.</p>
+      <a href="#hero" class="back-to-top">↑ Back to Top</a>
+    </div>
+  </footer>
+
+  <!-- Project Modals -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <!-- Image Modal -->
+  <div id="image-modal" class="image-modal">
+    <span class="close-image-modal">&times;</span>
+    <img id="expanded-image" class="expanded-image">
+  </div>
+
+  <!-- Loading Animation -->
+  <div id="loading">
+    <div class="loader"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
